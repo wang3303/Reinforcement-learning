@@ -1,5 +1,5 @@
 # Reinforcement-learning
-Getting started from basic resinforcement learning
+Getting started from basic reinforcement learning
 # Year 2016
 * 11/11-11/13
 
