@@ -4,4 +4,5 @@ Getting started from basic resinforcement learning
 * 11/11-11/13
 Learning keras & matplotlib
 * 11/14
-program simple n-bandit arm machine with python[reference](http://outlace.com/Reinforcement-Learning-Part-1/)
+program simple n-bandit arm machine with python
+ [reference](http://outlace.com/Reinforcement-Learning-Part-1/)
