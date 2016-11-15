@@ -4,9 +4,16 @@ Getting started from basic reinforcement learning
 * before 11/11
 
 Try to set environment of gym_torcs (problem faced plib v1.8.3 configured not properly and that is the only version works)
+
 Read [code](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html) of DDPG of TORCS game
+
 Review python and numpy
+
 Install dependences and toolboxes
+
+Learn lutorpy and argparse
+
+Go through [Flappybird](https://yanpanlau.github.io/2016/07/10/FlappyBird-Keras.html)
 
 * 11/11-11/13
 
