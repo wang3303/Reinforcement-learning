@@ -10,7 +10,7 @@ program simple n-bandit arm machine with python
 
 
  [reference](http://outlace.com/Reinforcement-Learning-Part-1/)
-*11/15
+* 11/15
 work on blackjack problem
 
 [reference](http://outlace.com/Reinforcement-Learning-Part-2/)
