@@ -29,3 +29,4 @@ program simple n-bandit arm machine with python
 work on blackjack problem
 
 [reference](http://outlace.com/Reinforcement-Learning-Part-2/)
+![result of no usable aces](https://github.com/wang3303/Reinforcement-learning/blob/master/blackjack.png)
