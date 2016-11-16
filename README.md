@@ -26,7 +26,6 @@ program simple n-bandit arm machine with python
  [reference](http://outlace.com/Reinforcement-Learning-Part-1/)
 * 11/15
 
-work on blackjack problem
+work on blackjack problem[reference](http://outlace.com/Reinforcement-Learning-Part-2/)
 
-[reference](http://outlace.com/Reinforcement-Learning-Part-2/)
 ![result of no usable aces](https://github.com/wang3303/Reinforcement-learning/blob/master/blackjack.png)
