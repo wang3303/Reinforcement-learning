@@ -29,3 +29,9 @@ program simple n-bandit arm machine with python
 work on blackjack problem using [Monte Carlo & Tabular Methods](http://outlace.com/Reinforcement-Learning-Part-2/)
 
 ![result of no usable aces](https://github.com/wang3303/Reinforcement-learning/blob/master/blackjack.png)
+
+* 11/17
+
+Succeed in finding problems. torcs environment is correctly set.
+
+![environment setting](https://github.com/wang3303/Reinforcement-learning/blob/master/success)
