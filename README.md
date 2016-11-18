@@ -34,7 +34,7 @@ work on blackjack problem using [Monte Carlo & Tabular Methods](http://outlace.c
 
 autoencoder using keras in python
 
-OpenAI [gym](https://github.com/wang3303/Reinforcement-learning/edit/master/gym_basic.py)
+OpenAI [gym](https://github.com/wang3303/Reinforcement-learning/edit/master/gym_basics.py)
 
 Succeed in finding problems. torcs environment is correctly set.
 
