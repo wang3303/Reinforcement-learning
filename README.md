@@ -32,7 +32,9 @@ work on blackjack problem using [Monte Carlo & Tabular Methods](http://outlace.c
 
 * 11/17
 
-autoencoder using keras in python
+autoencoder for mnist using keras
+
+![autoencoder](https://github.com/wang3303/Reinforcement-learning/blob/master/fully_connected_autoencoder_mnist.png)
 
 OpenAI [gym](https://github.com/wang3303/Reinforcement-learning/edit/master/gym_basics.py)
 
