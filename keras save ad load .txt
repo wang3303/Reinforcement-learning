@@ -1,0 +1,14 @@
+# save and load weights
+model.save_weights('my_model_weights.h5')
+model.load_weights('my_model_weights.h5')
+
+
+# save and load fresh network without trained weights
+from keras.models import model_from_json
+json_string = model.to_json()
+model = model_from_json(json_string)
+
+# save and load network
+from keras.models import load_model
+model.save('my_model.h5')
+model = load_model('my_model.h5')
