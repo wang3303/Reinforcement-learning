@@ -3,7 +3,7 @@ Getting started from basic reinforcement learning
 # Year 2016
 * before 11/11
 
-Try to set environment of gym_torcs (problem faced plib v1.8.3 configured not properly and that is the only version works)
+Try to set environment of gym_torcs (~~problem faced plib v1.8.3 configured not properly and that is the only version works~~)
 
 Read [code](https://yanpanlau.github.io/2016/10/11/Torcs-Keras.html) of DDPG of TORCS game
 
@@ -31,6 +31,10 @@ work on blackjack problem using [Monte Carlo & Tabular Methods](http://outlace.c
 ![result of no usable aces](https://github.com/wang3303/Reinforcement-learning/blob/master/blackjack.png)
 
 * 11/17
+
+autoencoder using keras in python
+
+OpenAI [gym](https://github.com/wang3303/Reinforcement-learning/edit/master/gym_basic.py)
 
 Succeed in finding problems. torcs environment is correctly set.
 
