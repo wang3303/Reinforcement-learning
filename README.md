@@ -43,4 +43,5 @@ Succeed in finding problems. torcs environment is correctly set.
 ![environment setting](https://github.com/wang3303/Reinforcement-learning/blob/master/success)
 
 * 11/18
+
 [Q-learning exercise(with and without replay)](https://github.com/wang3303/Reinforcement-learning/tree/master/grid-Qlearning)
