@@ -45,3 +45,17 @@ Succeed in finding problems. torcs environment is correctly set.
 * 11/18
 
 [Q-learning exercise(with and without replay)](https://github.com/wang3303/Reinforcement-learning/tree/master/grid-Qlearning)
+
+*11/19-11/20
+[Train on torcs racing game with sensor input](https://github.com/wang3303/Reinforcement-learning/tree/master/torcs) (preliminary, this program can be run at present)
+
+further problem faced: 
+
+1. the response time should be below 10ms. my program has a lag. There might be some room for simplifyinh.
+
+2. ~~The game is rather different from [outrun](https://lopespm.github.io/machine_learning/2016/10/06/deep-reinforcement-learning-racing-game.html) in that the action dimension is infinite.~~
+Solution: Implement actor-critic network structure
+
+3. Unstable performance
+
+Clue: build target network do reduce the updating step.
