@@ -9,13 +9,13 @@ further problem faced:
 
 	1. the response time should be below 10ms. my program has a lag. There might be some room for simplifyinh.
 
-	2. ~~The game is rather different from [outrun](https://lopespm.github.io/machine_learning/2016/10/06/deep-reinforcement-learning-racing-game.html) in that the action dimension is infinite.~~
+	2. The game is rather different from [outrun](https://lopespm.github.io/machine_learning/2016/10/06/deep-reinforcement-learning-racing-game.html) in that the action dimension is infinite.
 
-	Solution: Implement actor-critic network structure
+	Solved: Implement actor-critic network structure
 
 	3. Unstable performance
 
-Clue: build target network do reduce the updating step.
+	Clue: build target network do reduce the updating step.
 
 * 11/18
 
