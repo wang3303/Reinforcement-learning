@@ -10,6 +10,7 @@ Setting up  environment for TORCS
 2. python, numpy, keras, gym
 
 3. [gym_torcs](https://github.com/ugo-nama-kun/gym_torcs)
+	
 	Try changing 64 line of gym_torcs/vtorcs-RL-color/src/modules/simu/simuv2/simu.cpp to `if (isnan((float)(car->ctrl->gear)) || isinf(((float)(car->ctrl->gear)))) car->ctrl->gear = 0;` should there be problem with compiling
 	
 	
