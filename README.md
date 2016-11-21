@@ -45,7 +45,7 @@ agent = Agent(1)  # steering only
 action = agent.act(ob, reward, done, vision=True)
 
 # single step
-ob, reward, done, _ = env.step(action)
+ob, reward, done, info = env.step(action)
 
 # shut down torcs
 env.end()
