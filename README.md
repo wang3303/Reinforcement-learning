@@ -12,6 +12,8 @@ Setting up  environment for TORCS
 3. [torcs](http://torcs.sourceforge.net/index.php?artid=3&name=Sections&op=viewarticle)
 
 	install dependencies listed on that page
+	
+	[Software Manual](https://arxiv.org/pdf/1304.1672.pdf)
 
 4. [gym_torcs](https://github.com/ugo-nama-kun/gym_torcs)
 	
@@ -19,6 +21,8 @@ Setting up  environment for TORCS
 	
 TESTING: 
 
+	1. In the first terminal,`sudo torcs` will launch the torcs. In the GUI,s select (Race --> Practice --> Configure Race) and open TORCS server by selecting Race --> Practice --> New Race. This should result that TORCS keeps a blue screen with several text information.
+	2. In the second terminal, `python snakeoil3_gym.py` and you shall see a demo. (change view mode by pressing F2)
 	
 SIMPLE HOW-TO:
 
@@ -46,6 +50,9 @@ ob, reward, done, _ = env.step(action)
 # shut down torcs
 env.end()
 ```
+REMINDER:
+
+To get the image of the game, you should select the Screen Resolution, and you need to select 64x64 for visual input (this immplementation only support this screen size, other screen size results the unreasonable visual information).
 	
 	
 
