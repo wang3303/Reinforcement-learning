@@ -21,8 +21,8 @@ Setting up  environment for TORCS
 	
 TESTING: 
 
-	1. In the first terminal,`sudo torcs` will launch the torcs. In the GUI,s select (Race --> Practice --> Configure Race) and open TORCS server by selecting Race --> Practice --> New Race. This should result that TORCS keeps a blue screen with several text information.
-	2. In the second terminal, `python snakeoil3_gym.py` and you shall see a demo. (change view mode by pressing F2)
+1. In the first terminal,`sudo torcs` will launch the torcs. In the GUI,s select (Race --> Practice --> Configure Race) and open TORCS server by selecting Race --> Practice --> New Race. This should result that TORCS keeps a blue screen with several text information.
+2. In the second terminal, `python snakeoil3_gym.py` and you shall see a demo. (change view mode by pressing F2)
 	
 SIMPLE HOW-TO:
 
