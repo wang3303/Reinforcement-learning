@@ -7,14 +7,45 @@ Setting up  environment for TORCS
 
 1. xautomation (ubuntu: sudo apt-get install xautomation)
 
-2. python, numpy, keras, gym
+2. python, numpy, keras, gym, Tensorflow r0.10 or higher
 
-3. [gym_torcs](https://github.com/ugo-nama-kun/gym_torcs)
+3. [torcs](http://torcs.sourceforge.net/index.php?artid=3&name=Sections&op=viewarticle)
+
+	install dependencies listed on that page
+
+4. [gym_torcs](https://github.com/ugo-nama-kun/gym_torcs)
 	
 	Try changing 64 line of gym_torcs/vtorcs-RL-color/src/modules/simu/simuv2/simu.cpp to `if (isnan((float)(car->ctrl->gear)) || isinf(((float)(car->ctrl->gear)))) car->ctrl->gear = 0;` should there be problem with compiling
 	
+TESTING: 
+
 	
-4. 
+SIMPLE HOW-TO:
+
+`from gym_torcs import TorcsEnv
+
+#### Generate a Torcs environment
+# enable vision input, the action is steering only (1 dim continuous action)
+env = TorcsEnv(vision=True, throttle=False)
+
+# without vision input, the action is steering and throttle (2 dim continuous action)
+# env = TorcsEnv(vision=False, throttle=True)
+
+ob = env.reset(relaunch=True)  # with torcs relaunch (avoid memory leak bug in torcs)
+# ob = env.reset()  # without torcs relaunch
+
+# Generate an agent
+from sample_agent import Agent
+agent = Agent(1)  # steering only
+action = agent.act(ob, reward, done, vision=True)
+
+# single step
+ob, reward, done, _ = env.step(action)
+
+# shut down torcs
+env.end()`
+	
+	
 
 * 11/19-11/20
 [Train on torcs racing game with sensor input](https://github.com/wang3303/Reinforcement-learning/tree/master/torcs) (preliminary, this program can be run at present)
