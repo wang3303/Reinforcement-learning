@@ -1,6 +1,19 @@
 # Reinforcement-learning
 Getting started from basic reinforcement learning
 # Year 2016
+* 11/21
+
+Setting up  environment for TORCS
+
+1. xautomation (ubuntu: sudo apt-get install xautomation)
+
+2. python, numpy, keras, gym
+
+3. [gym_torcs](https://github.com/ugo-nama-kun/gym_torcs)
+	Try changing 64 line of gym_torcs/vtorcs-RL-color/src/modules/simu/simuv2/simu.cpp to `if (isnan((float)(car->ctrl->gear)) || isinf(((float)(car->ctrl->gear)))) car->ctrl->gear = 0;` should there be problem with compiling
+	
+	
+4. 
 
 * 11/19-11/20
 [Train on torcs racing game with sensor input](https://github.com/wang3303/Reinforcement-learning/tree/master/torcs) (preliminary, this program can be run at present)
