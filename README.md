@@ -5,9 +5,43 @@ Getting started from basic reinforcement learning
 
 Setting up environment using [Universe](https://openai.com/blog/universe/)
 
+Installing instructions is [here](https://github.com/openai/universe).
+
 Advantage: It has lots of game on the way including atari, flash and PC game. It is basically using [docker](https://www.docker.com/) to run the environment (actually it is the game image in the container) and give observations back to the agent.
 
-![]()
+![](https://github.com/wang3303/Reinforcement-learning/blob/master/vnc_driver)
+
+Your agent is programmatically controlling a VNC client, connected to a VNC server running inside of a Docker container in the cloud, rendering a headless Chrome with Flash enabled.
+
+Sample code is posted here.
+
+```
+import gym
+import universe # register the universe environments
+
+env = gym.make('flashgames.DuskDrive-v0')
+env.configure(remotes=1) # create one flashgames Docker container
+observation_n = env.reset()
+
+while True:
+  # your agent generates action_n at 60 frames per second
+  action_n = [[('KeyEvent', 'ArrowUp', True)] for ob in observation_n]
+  observation_n, reward_n, done_n, info = env.step(action_n)
+  env.render()
+```
+
+Besides that, you can configure your agent to connect the reward/info channel:
+```
+env.configure(remotes='vnc://localhost:5900+15900')
+```
+You can connect to multiple remotes:
+```
+env.configure(remotes='vnc://localhost:5900+15900,vnc://localhost:5901+15901')
+```
+You can run your container remotely as well:
+```
+env.configure(remotes='vnc://your.host.here:5900+15900')
+```
 
 * 11/21
 
