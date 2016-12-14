@@ -29,12 +29,15 @@ while True:
   observation_n, reward_n, done_n, info = env.step(action_n)
   env.render()
 ```
-Start your game container:
+Start your game container allocating certain ports:
 ```
 $ docker run --privileged --cap-add=SYS_ADMIN --ipc=host \
     -p 5900:5900 -p 15900:15900 quay.io/openai/universe.flashgames
 ```
-
+or you can simply use the following to automatically create a local container:
+```
+env.configure(remotes = 1)
+```
 Then you can configure your agent to connect the VNC server (port 5900 by default) and the reward/info channel (port 15900 by default):
 ```
 env.configure(remotes='vnc://localhost:5900+15900')
