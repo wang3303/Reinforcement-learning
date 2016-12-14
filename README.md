@@ -1,6 +1,14 @@
 # Reinforcement-learning
 Getting started from basic reinforcement learning
 # Year 2016
+* 12/13
+
+Setting up environment using [Universe](https://openai.com/blog/universe/)
+
+Advantage: It has lots of game on the way including atari, flash and PC game. It is basically using [docker](https://www.docker.com/) to run the environment (actually it is the game image in the container) and give observations back to the agent.
+
+![]()
+
 * 11/21
 
 Setting up  environment for TORCS
