@@ -5,10 +5,11 @@ Getting started from basic reinforcement learning
 Details:
 ```
 observation_n, reward_n, done_n, info = env.step(action_n)
-#observation_n, reward_n, done_n are all lists
-#observation_n = [{'text':[],'vision':[,dtype = uint8]}]
-#reward_n = [reward] 
-#done_n = [false] 
+# observation_n, reward_n, done_n,info are all lists
+# observation_n = [{'text':[],'vision':[,dtype = uint8]}]
+# reward_n = [reward] 
+# done_n = [false] 
+# Each environment's info message contains useful diagnostic information, including latency data, client and remote timings, VNC update counts, and reward message counts.
 ```
 
 * 12/13
