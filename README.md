@@ -2,6 +2,7 @@
 Getting started from basic reinforcement learning
 # Year 2016
 * 12/22
+
 env.step details:
 ```
 observation_n, reward_n, done_n, info = env.step(action_n)
