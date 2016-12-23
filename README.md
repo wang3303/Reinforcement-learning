@@ -1,6 +1,16 @@
 # Reinforcement-learning
 Getting started from basic reinforcement learning
 # Year 2016
+* 12/22
+Details:
+```
+observation_n, reward_n, done_n, info = env.step(action_n)
+#observation_n, reward_n, done_n are all lists
+#observation_n = [{'text':[],'vision':[,dtype = uint8]}]
+#reward_n = [reward] 
+#done_n = [false] 
+```
+
 * 12/13
 
 Setting up environment using [Universe](https://openai.com/blog/universe/)
