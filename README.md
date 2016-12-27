@@ -1,6 +1,34 @@
 # Reinforcement-learning
 Getting started from basic reinforcement learning
 # Year 2016
+* 12/26
+Covolution NN using lutorpy
+```
+def network_building():
+    model = nn.Sequential()
+    model._add(nn.SpatialConvolution(img_channels,32,8,8,4,4))
+    model._add(nn.ReLU())
+    model._add(nn.SpatialConvolution(32,64,4,4,2,2))
+    model._add(nn.ReLU())
+    model._add(nn.SpatialConvolution(64,64,3,3,1,1))
+    model._add(nn.ReLU())
+    model._add(nn.View(64*6*6))
+    model._add(nn.Linear(64*6*6,512))
+    model._add(nn.ReLU())
+    model._add(nn.Linear(512,4))
+
+    model.criterion = nn.MSECriterion()
+    return model
+```
+image pre-processing using skimage
+```
+def image_processing(image):
+    image = skimage.color.rgb2gray(image)
+    image = skimage.transform.resize(image,(80,80))
+    image = skimage.exposure.rescale_intensity(image,out_range=(0,1))
+    image = image.reshape(1, 1, image.shape[0], image.shape[1])
+    return image
+```
 * 12/22
 
 env.step details:
