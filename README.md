@@ -2,6 +2,11 @@
 Getting started from basic reinforcement learning
 # Year 2016
 * 12/26
+Start woking on Coaster Racer on Universe.
+
+Basic rules
+![]()
+
 Covolution NN using lutorpy
 ```
 def network_building():
