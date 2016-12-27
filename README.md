@@ -5,7 +5,7 @@ Getting started from basic reinforcement learning
 Start woking on Coaster Racer on Universe.
 
 Basic rules
-![]()
+![](https://github.com/wang3303/Reinforcement-learning/blob/master/CoasterRacer/coasterracer_rule.png)
 
 Covolution NN using lutorpy
 ```
