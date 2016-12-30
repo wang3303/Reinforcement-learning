@@ -2,6 +2,7 @@
 Getting started from basic reinforcement learning
 # Year 2016
 * 12/29
+
 Accompolish [preliminary python code using lutorpy](https://github.com/wang3303/Reinforcement-learning/tree/master/CoasterRacer). This code implements basic deep Q-learning algorithm by constantly pressing up key and making decisions to press left or right key. The code works well with Universe though there is still am automatic restart issue to be solved.
 
 * 12/26
