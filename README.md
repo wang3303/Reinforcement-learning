@@ -1,6 +1,11 @@
 # Reinforcement-learning
 Getting started from basic reinforcement learning
 # Year 2016
+* 12/31
+
+[Refined code that can autostart after episodes are ended.](https://github.com/wang3303/Reinforcement-learning/blob/master/CoasterRacer/CoasterRacer%20(Refined).py)
+
+
 * 12/29
 
 Accompolish [preliminary python code using lutorpy](https://github.com/wang3303/Reinforcement-learning/tree/master/CoasterRacer). This code implements basic deep Q-learning algorithm by constantly pressing up key and making decisions to press left or right key. The code works well with Universe though there is still an automatic restart issue to be solved. The problem arises due to the lack of input to CNN during the preplay animation before the game. A sign inserted in some place would solve the problem.
