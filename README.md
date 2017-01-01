@@ -1,14 +1,14 @@
 # Reinforcement-learning
 Getting started from basic reinforcement learning
 # Year 2017
+* 1/1
 
-Happy New Year!!!
+Happy New Year!!! 
 
 # Year 2016
 * 12/31
 
 [Refined code that can autostart after episodes are ended.](https://github.com/wang3303/Reinforcement-learning/blob/master/CoasterRacer/CoasterRacer%20(Refined).py)
-
 
 * 12/29
 
