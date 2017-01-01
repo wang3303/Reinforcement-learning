@@ -2,8 +2,19 @@
 Getting started from basic reinforcement learning
 # Year 2017
 * 1/1
-
-Happy New Year!!! 
+```
+# Happy New Year!!!
+# Run this in python
+message = ['0b1001000','0b1000001','0b1010000','0b1010000','0b1011001',
+    '0b100000','0b1001110','0b1000101','0b1010111','0b100000',
+    '0b1011001','0b1000101','0b1000001','0b1010010','0b100000',
+    '0b100001','0b100001','0b100001','0b100001','0b100001']
+      
+def extract(message):
+    return [chr(int(c,2)) for c in message]
+    
+print (''.join(extract(message)))
+```
 
 # Year 2016
 * 12/31
